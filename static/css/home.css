@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+.header {
+    padding: 50px;
+    width: 100vw;
+    height: 30px;
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+.logo {
+    color: aliceblue;
+}
+
+.nav {
+    height: 400px;
+    width: 200px;
+    background-color: orangered;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+ul li a {
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.link li a:hover {
+    transition: all 0.3s linear;
+    color: aqua;
+    font-size: large;
+}
+
+.footer {
+    height: 90px;
+    width: 100vw;
+    background-color: blue;
+}
